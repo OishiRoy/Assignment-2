@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container-2 {
+    display: grid;
+}
+
+.section-1 {
+    margin: 30px;
+    width: 90%;
+}
+
+.half-width {
+    width: 50%;
+    text-align: left;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #494545;
+    background-color: #f8f0f0;
+}
+
+
+.banner-1 {
+    color: #FFFFFF;
+    background-color: #463b3b;
+    border-radius: 30px;
+}
+
+.half-width {
+    justify-content: center;
+}
+
+.desc-1 {
+    padding-left: 60px;
+}
+
+.desc-1,
+.image-1 {
+    width: 80%;
+}
+
+
+.banner-1 .banner-title {
+    font-size: 3.55vw;
+    font-weight: 800;
+    text-align: left;
+}
+
+.banner-1 .banner-desc {
+    font-size: 90%;
+    font-weight: 400;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.image-1 {
+    padding-top: 30px;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.image-1 img {
+    width: 80%;
+}
+
+.link-button {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #b02e2e;
+    padding: 10px 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: #faf0f0;
+    transform-origin: 60%
+}
+
+
+i.fa-solid.fa-arrow-right {
+    margin-left: 8px;
+    animation-name: arrowslide;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+section#matches-1 {
+    padding: 5% 10%;
+    display: flex;
+}
+
+.section-2 {
+    width: 25%;
+}
+
+section#matches-1 ul {
+    background-color: #322b2b;
+    display: inline-block;
+    list-style: none;
+    padding: 20%;
+    height: 40vh;
+    width: 255px;
+    text-align: center;
+}
+
+section#matches-1 ul li {
+    border: 5px solid var(--secondery-color);
+    margin: 5%;
+    padding: 8%;
+    border-radius: 10px;
+}
+
+section#matches-1 ul li:hover {
+    background: var(--secondery-color);
+    border: none;
+}
+
+.section-2 a {
+    color: rgb(95, 87, 87);
+}
+
+.matches-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    width: 80%;
+    row-gap: 4%;
+    column-gap: 5%;
+}
+
+.match {
+    border: 1px solid #f5f0f0;
+    border-radius: 5px;
+}
+
+.match img {
+    width: 100%;
+    height: 120px;
+    border-radius: 5px;
+}
+
+.content {
+    padding: 2% 7%;
+}
+
+.match button {
+    padding: 2% 4%;
+    margin: 3% 0;
+}
+
+.match h4 {
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 3% 0;
+}
+
+.icons {
+    font-size: 14px;
+}
+
+.icons i {
+    color: #f8f0f0(--secondery-color);
+    margin: 0 3%;
+}
+
+.btn-sec {
+    margin: 9%;
+    visibility: hidden;
+}
+
+.match-btn {
+    background-color: var(--secondery-color);
+    padding: 15px 40px;
+    color: #fff;
+    border-radius: 5px;
+    text-align: left;
+}
+
+
+footer {
+    background-color: #322b2b;
+    text-align: center;
+    padding: 3% 9%;
+    color: #fff;
+}
+
+hr {
+    height: 5px;
+    border: none;
+    background-color: var(--secondery-color);
+}
+
+footer .menu {
+    margin-top: 2%;
+}
+
+footer .menu li {
+    display: inline;
+    margin: 4%;
+    font-size: 12px;
+}
+
+
+
+.social-link {
+    margin-top: 20px;
+    width: 20%;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.social-link a {
+    justify-content: center;
+    font-size: 24px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    align-items: center;
+    display: flex;
+}
+
+
+
+
+/* match page*/
+
+
+.matches-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    width: 100%;
+    row-gap: 7%;
+    column-gap: 3%;
+}
+
+.matches-3 {
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    padding: 5%;
+}
+
+.match-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
+
+.match-img span {
+    margin: 2%;
+}
+
+.match-img {
+    width: 45%;
+    border-radius: 5px;
+}
+
+.matches-3 .content {
+    padding: 0;
+    text-align: center;
+    margin: 8% 0;
+}
+
+.matches-3 h4 {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.matches-3 .content p {
+    font-size: .9rem;
+}
